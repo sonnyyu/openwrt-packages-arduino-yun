@@ -23,7 +23,7 @@ define Package/spacebrew
   SECTION:=net
   CATEGORY:=Network
   TITLE:= Easily connect the Arduino Yun to Spacebrew
-  DEPENDS:=+python-mini +python-json
+  DEPENDS:=+python +python-json
 endef
 
 define Package/spacebrew/description
